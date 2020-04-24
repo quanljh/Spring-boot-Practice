@@ -12,6 +12,11 @@ public class HelloController {
     public HelloController() {
     }
 
+//    @RequestMapping({"/","/index.html"})
+//    public String index(){
+//        return "index";
+//    }
+
     @ResponseBody
     @RequestMapping({"/hello"})
     public String hello() {

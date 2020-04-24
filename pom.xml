@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.quan</groupId>
-    <artifactId>web-project1</artifactId>
+    <artifactId>web-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>web-project1</name>
+    <name>web-project</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -36,6 +36,19 @@
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>3.5.0</version>
+        </dependency>
+
+        <!-- 引入bootstrap -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>4.4.1-1</version>
+        </dependency>
+
+        <!-- 引入开发者工具支持热部署 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
         <dependency>
